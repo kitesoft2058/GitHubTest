@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h2>Ex01 Servlet Test</h2>
+	
+	<fieldset>
+		<legend>GET METHOD TEST</legend>
+		<form action="getTest" method="get" enctype="application/x-www-form-urlencoded">
+			TITLE : <input type="text" name="title"> <br>
+			MESSAGE : <input type="text" name="msg"> <br>
+			<input type="submit" value="전송">
+		</form>
+	</fieldset>
+	
+	<hr>
+	
+	<fieldset>
+		<legend>POST METHOD TEST</legend>
+		<form action="postTest" method="post" enctype="application/x-www-form-urlencoded">
+			<p>아이디 : <input type="text" name="user_id"></p>
+			<p>비밀번호 : <input type="password" name="user_pw"></p>
+			
+			<p>
+				<input type="checkbox" name="fruits" value="apple">사과
+				<input type="checkbox" name="fruits" value="banana">바나나
+				<input type="checkbox" name="fruits" value="orange">오렌지
+			</p>
+			
+			<p><input type="submit" value="로그인"></p>
+		</form>
+		
+	</fieldset>
+
+</body>
+</html>
